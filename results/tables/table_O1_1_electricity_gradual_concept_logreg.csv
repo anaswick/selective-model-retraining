@@ -1,0 +1,6 @@
+dataset,model,strategy,avg_batch_accuracy,std_batch_accuracy,avg_recovery_time,num_retraining_events,total_retraining_data
+electricity_gradual_concept,logistic_regression,no_retraining,0.907972,0.04937,1.0,0.0,0.0
+electricity_gradual_concept,logistic_regression,continuous,0.932972,0.026569,1.25,72.0,1962000.0
+electricity_gradual_concept,logistic_regression,cumulative,0.927028,0.027457,1.25,13.0,162500.0
+electricity_gradual_concept,logistic_regression,sliding_window,0.940667,0.019771,0.6667,3.0,7500.0
+electricity_gradual_concept,logistic_regression,exponential_decay,0.938667,0.02054,0.6667,3.0,30000.0

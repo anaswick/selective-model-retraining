@@ -1,0 +1,6 @@
+dataset,model,strategy,avg_batch_accuracy,std_batch_accuracy,avg_recovery_time,num_retraining_events,total_retraining_data
+electricity,logistic_regression,no_retraining,0.720944,0.106366,3.25,0.0,0.0
+electricity,logistic_regression,continuous,0.738361,0.099858,2.2941,72.0,1962000.0
+electricity,logistic_regression,cumulative,0.737556,0.097551,3.3333,43.0,860000.0
+electricity,logistic_regression,sliding_window,0.744,0.088788,2.3333,42.0,105000.0
+electricity,logistic_regression,exponential_decay,0.746833,0.0838,2.0625,38.0,712500.0

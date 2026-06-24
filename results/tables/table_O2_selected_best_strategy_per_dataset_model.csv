@@ -1,0 +1,7 @@
+dataset,model,selected_strategy
+electricity,logistic_regression,exponential_decay
+electricity,xgboost,sliding_window
+electricity_gradual_concept,logistic_regression,sliding_window
+electricity_gradual_concept,xgboost,sliding_window
+electricity_abrupt_concept,logistic_regression,exponential_decay
+electricity_abrupt_concept,xgboost,exponential_decay

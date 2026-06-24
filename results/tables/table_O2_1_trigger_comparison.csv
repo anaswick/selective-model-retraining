@@ -1,0 +1,13 @@
+dataset,model,trigger_type,selected_strategy,avg_batch_accuracy,false_drift_rate,missed_drift_rate,num_retraining_events,total_retraining_data,avg_recovery_time
+electricity,logistic_regression,performance_trigger,exponential_decay,0.746833,0.416667,0.013889,38.0,712500.0,2.0625
+electricity,logistic_regression,psi_trigger,exponential_decay,0.758861,0.361111,0.013889,66.0,1699500.0,1.6842
+electricity,xgboost,performance_trigger,sliding_window,0.751556,0.069444,0.236111,67.0,167500.0,1.3929
+electricity,xgboost,psi_trigger,sliding_window,0.74475,0.027778,0.263889,52.0,128000.0,1.5556
+electricity_abrupt_concept,logistic_regression,performance_trigger,exponential_decay,0.919944,0.513889,0.013889,12.0,147000.0,1.5
+electricity_abrupt_concept,logistic_regression,psi_trigger,exponential_decay,0.901278,0.513889,0.083333,54.0,1228500.0,4.4
+electricity_abrupt_concept,xgboost,performance_trigger,exponential_decay,0.923278,0.472222,0.013889,16.0,212000.0,1.0
+electricity_abrupt_concept,xgboost,psi_trigger,exponential_decay,0.922222,0.555556,0.041667,54.0,1228500.0,2.4286
+electricity_gradual_concept,logistic_regression,performance_trigger,sliding_window,0.940667,0.041667,0.027778,3.0,7500.0,0.6667
+electricity_gradual_concept,logistic_regression,psi_trigger,sliding_window,0.939111,0.013889,0.097222,2.0,5000.0,0.4
+electricity_gradual_concept,xgboost,performance_trigger,sliding_window,0.941472,0.111111,0.041667,4.0,10000.0,0.25
+electricity_gradual_concept,xgboost,psi_trigger,sliding_window,0.940833,0.013889,0.194444,2.0,5000.0,0.0714

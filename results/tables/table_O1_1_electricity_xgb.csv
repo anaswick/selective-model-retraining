@@ -1,0 +1,6 @@
+dataset,model,strategy,avg_batch_accuracy,std_batch_accuracy,avg_recovery_time,num_retraining_events,total_retraining_data
+electricity,xgboost,no_retraining,0.72525,0.103189,2.5333,0.0,0.0
+electricity,xgboost,continuous,0.744167,0.083428,1.6957,72.0,1962000.0
+electricity,xgboost,cumulative,0.736611,0.08019,2.2222,51.0,1122000.0
+electricity,xgboost,sliding_window,0.751556,0.076739,1.3929,67.0,167500.0
+electricity,xgboost,exponential_decay,0.749333,0.077994,1.2333,66.0,1699500.0

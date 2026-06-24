@@ -1,0 +1,6 @@
+strategy,strengths,weaknesses,best drift condition,cost efficiency level,robustness level
+continuous,Strong adaptation baseline through frequent updates.,High retraining cost and possible unnecessary updates.,electricity_gradual_concept,Low,Low
+cumulative,Uses all accumulated labeled history for stable adaptation.,Retraining data volume can grow substantially.,electricity_gradual_concept,Moderate,Moderate
+exponential_decay,Balances historical retention with recent-data emphasis.,Requires decay configuration.,electricity_gradual_concept,Moderate,High
+no_retraining,Lowest operational complexity and no retraining cost.,Limited adaptation under concept drift.,electricity_gradual_concept,High,Low
+sliding_window,Focuses on recent observations and reduces stale history.,May discard useful older patterns.,electricity_gradual_concept,Moderate,High
