@@ -97,10 +97,11 @@ Two synthetic datasets were generated from the Electricity dataset:
 │       └── synthetic_abrupt_drift.csv
 │
 ├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_synthetic_data_generation.ipynb
-│   ├── 03_experiment_execution.ipynb
-│   └── 04_analysis_and_visualization.ipynb
+│   ├── 1_electricity_data_preparation.ipynb
+│   ├── 2_synthetic_dataset_generation.ipynb
+│   ├── 3_drift_validation.ipynb
+│   └── 4_simulation_retraining.ipynb
+│   └── 5_analysis_and_result.ipynb
 │
 ├── configs/
 │   └── best_params.json
@@ -123,9 +124,9 @@ Two synthetic datasets were generated from the Electricity dataset:
 │   │       └── ...
 │   │
 │   └── tables/
-│       ├── table_1_strategy_comparison.csv
-│       ├── table_2_trigger_comparison.csv
-│       └── summary_results.csv
+│       ├── table_O1_1_electricity_abrupt_concept_logreg.csv
+│       ├── table_O1_1_electricity_abrupt_concept_xgb.csv
+│       └── ....csv
 │
 ├── docs/
 │   ├── data_availability_statement.md
