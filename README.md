@@ -272,7 +272,7 @@ If you use this repository, please cite the associated publication.
 
 ```bibtex
 @article{wicaksono2026selective,
-  title={Selective Model Retraining: Balancing Predictive Robustness and Operational Efficiency under Concept Drift},
+  title={Selective Model Retraining: Balancing Predictive Robustness and Operational Efficiency under Concept Drift under Concept Drift},
   author={Wicaksono, Anas and Kusuma, Gede Putra},
   year={2026}
 }
