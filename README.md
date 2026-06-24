@@ -109,18 +109,18 @@ Two synthetic datasets were generated from the Electricity dataset:
 ├── results/
 │   ├── figures/
 │   │   ├── objective_1/
-│   │   │   ├── fig_2_accuracy_abrupt_drift.png
-│   │   │   ├── fig_3_accuracy_gradual_drift.png
+│   │   │   ├── figure_O1_1_electricity_abrupt_concept_logreg.png
+│   │   │   ├── figure_O1_1_electricity_abrupt_concept_xgb.png
 │   │   │   └── ...
 │   │   │
 │   │   ├── objective_2/
-│   │   │   ├── fig_4_trigger_reliability.png
-│   │   │   ├── fig_5_psi_accuracy_alignment.png
+│   │   │   ├── figure_O2_1_electricity_abrupt_concept_logreg_performance_trigger
+│   │   │   ├── figure_O2_1_electricity_abrupt_concept_logreg_psi_trigger
 │   │   │   └── ...
 │   │   │
 │   │   └── objective_3/
-│   │       ├── fig_6_accuracy_cost_tradeoff.png
-│   │       ├── fig_7_memory_strategy_robustness.png
+│   │       ├── figure_O3_1_combined_overall.png
+│   │       ├── figure_O3_1_electricity.png
 │   │       └── ...
 │   │
 │   └── tables/
