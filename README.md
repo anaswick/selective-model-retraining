@@ -153,7 +153,7 @@ Hyperparameters were optimized using cross-validation on the initial training wi
 The best configurations are provided in:
 
 ```text
-configs/best_hyperparameters.json
+configs/best_params.json
 ```
 
 ---
@@ -203,8 +203,8 @@ Performance-driven retraining achieves comparable predictive accuracy while requ
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<username>/selective-retraining-concept-drift.git
-cd selective-retraining-concept-drift
+git clone https://github.com/anaswick/selective-model-retraining.git
+cd selective-model-retraining
 ```
 
 ### 2. Install Dependencies
@@ -257,7 +257,7 @@ Synthetic datasets generated for this study are included in the repository.
 * Visualization
 * Writing – Original Draft
 
-### Gede Putra Kusuma Negara
+### Gede Putra Kusuma
 
 * Supervision
 * Methodology
@@ -273,7 +273,7 @@ If you use this repository, please cite the associated publication.
 ```bibtex
 @article{wicaksono2026selective,
   title={Selective Model Retraining: Balancing Predictive Robustness and Operational Efficiency under Concept Drift},
-  author={Wicaksono, Anas and Negara, I Gede Putra Kusuma},
+  author={Wicaksono, Anas and Kusuma, Gede Putra},
   year={2026}
 }
 ```
