@@ -1,6 +1,0 @@
-dataset,model,strategy,avg_batch_accuracy,std_batch_accuracy,avg_recovery_time,num_retraining_events,total_retraining_data
-electricity_abrupt_concept,xgboost,no_retraining,0.847861,0.086716,24.0,0.0,0.0
-electricity_abrupt_concept,xgboost,continuous,0.901583,0.066506,5.4,72.0,1962000.0
-electricity_abrupt_concept,xgboost,cumulative,0.905361,0.058743,4.0,28.0,455000.0
-electricity_abrupt_concept,xgboost,sliding_window,0.922333,0.083665,1.4,16.0,40000.0
-electricity_abrupt_concept,xgboost,exponential_decay,0.923278,0.060269,1.0,16.0,212000.0
