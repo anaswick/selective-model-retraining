@@ -1,4 +1,4 @@
-# Selective Model Retraining Under Concept Drift
+# Selective Model Retraining: Balancing Predictive Robustness and Operational Efficiency under Concept Drift
 
 This repository contains the datasets, experimental artifacts, notebooks, configurations, and results accompanying the research paper:
 
